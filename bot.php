@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+
 function head(){
 $head.="     |-+-+-+-+-+-+-+-+-+-+-+|  \r\n";
 $head.="     |hiroyuki48  hiroyuki48|  \r\n";
@@ -11,7 +12,7 @@ $head.="     |yuki4|    __    |8hiro|  BOT Auto Bet BitSler\r\n";
 $head.="     |yuki4|   |8h|   |iroyu|  \r\n";
 $head.="     |ki48h|   |ir|   |oyuki|  \r\n";
 $head.="     |48hir|   |oy|   |uki48|  \r\n";
-$head.="     |hiroyuki48  hiroyuki48|  Develop : HIROYUKI\r\n";
+$head.="     |hiroyuki48  hiroyuki48|  Develop : HIROYUKI48\r\n";
 $head.="     |-+-+-+-+-+-+-+-+-+-+-+|  \r\n";
 echo $head;
 }
@@ -23,10 +24,10 @@ if(!$bet){
 }
 if(isset($bet)){
 while(true) {
-include "bit.config.php";
+require_once("config.php");
 $bet1 = $bet;
 $c = curl_init();
-curl_setopt($c, CURLOPT_URL, "http://smaalazhaar.sch.id/modul/bs.php?bet=$bet1&user=$user&token=$token&choose=$pilihan");
+curl_setopt($c, CURLOPT_URL, "$api?bet=$bet1&user=$user&token=$token&choose=$pilihan");
 curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($c, CURLOPT_SSL_VERIFYHOST, false);
 curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
