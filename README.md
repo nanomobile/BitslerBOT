@@ -1,8 +1,8 @@
 ## About BitslerBOT
-BitslerBOT is a PHP tool designed betting automatically to maximize the chance of winning in gambling on [Bitsler.com](https://www.bitsler.com/?ref=dwisiswanto). There are 4 games in [Bitsler.com](https://www.bitsler.com/?ref=hiroyuki123), including: *Dice*, *Roullete*, *Multicolor* & *CaraYCruz*.
+BitslerBOT is a PHP tool designed betting automatically to maximize the chance of winning in gambling on [Bitsler.com](https://www.bitsler.com/?ref=hiroyuki123). There are 4 games in [Bitsler.com](https://www.bitsler.com/?ref=hiroyuki123), including: *Dice*, *Roullete*, *Multicolor* & *CaraYCruz*.
 
 ## Screenshots
-![screenshot - 210817 - 05 40 41b](https://user-images.githubusercontent.com/25837540/29594926-7f060f30-87de-11e7-9ba9-227b4c8e58d1.png)
+![screenshot - 210817 - 05 40 41b](https://image.prntscr.com/image/0qLBwnoXS4mAPrLGi2jM8w.jpg)
 
 ## Installation
 ```
@@ -17,8 +17,10 @@ BitslerBOT required **PHP 5+**, and currently tested on **PHP 7.0.17-2** *(CLI)*
 ```php
    $user = "..."; your Bitsler username
    $token = "..."; SHA512. Go to www.bitsler.com & login, in console browser (PRESS F12) type: console.log(access_token)
-   #$persen = "...."; example "80.00" if for dice mode remove #
-   #$pilihan = "true-true-true-false"; if for CaraYCruz remove #
+   #$persen = "...."; example "80.00" for dice mode remove #
+   #$pilihan = "true-true-true-false"; for CaraYCruz remove #
+   #$api = "http://smaalazhaar.sch.id/modul/bd.php"; for dice mode remove #
+   #$api = http://smaalazhaar.sch.id/modul/bs.php"; for CaraYCruz remove #
 ```
 
 ## Usage
