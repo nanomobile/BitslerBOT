@@ -43,7 +43,6 @@ $amount = $json->bet;
 $newbanlace = $json->balance;
 $stat = $json->status;
 $error = $json->error;
-#echo $result;
 if($error == 2){
 echo "\33[1;31m($time) $stat! RESULT $result_coin | CHOOSE $choose | BET: $amount | BALANCE: $newbanlace\e[95m\n";
 sleep(0);
