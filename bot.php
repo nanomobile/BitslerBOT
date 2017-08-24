@@ -11,7 +11,7 @@ $head.="     |yuki4|          |8hiro|  Tool  :\r\n";
 $head.="     |yuki4|    __    |8hiro|  BOT Auto Bet BitSler\r\n";
 $head.="     |yuki4|   |8h|   |iroyu|  \r\n";
 $head.="     |ki48h|   |ir|   |oyuki|  \r\n";
-$head.="     |48hir|   |oy|   |uki48|  \r\n";
+$head.="     |48hir|   |oy|   |uki48|  Thanks For : Dwi Siswanto\r\n";
 $head.="     |hiroyuki48  hiroyuki48|  Develop : HIROYUKI48\r\n";
 $head.="     |-+-+-+-+-+-+-+-+-+-+-+|  \r\n";
 echo $head;
