@@ -4,6 +4,8 @@ BitslerBOT is a PHP tool designed betting automatically to maximize the chance o
 ## Screenshots
 ![screenshot - 210817 - 05 40 41b](https://image.prntscr.com/image/0qLBwnoXS4mAPrLGi2jM8w.jpg)
 
+## [Video GET Access Token](https://www.facebook.com/fikrimaulana85/videos/vb.100006820473204/2006557206248276/?type=2&theater)
+
 ## Installation
 ```
 git clone https://github.com/Hiroyuki48/BitslerBOT.git
