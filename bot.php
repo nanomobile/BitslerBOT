@@ -36,8 +36,6 @@ $result = curl_exec($c);
 curl_close($c);
 #print_r($result);
 $json = json_decode($result);
-$win = json_decode($result)->return->amount_return;
-$win = $win * 100000000;
 $time = $json->time;
 $result_coin = $json->result_coins;
 $choose = $json->choose_coins;
