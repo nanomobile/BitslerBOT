@@ -24,7 +24,7 @@ if(!$bet){
 }
 if(isset($bet)){
 while(true) {
-require_once("config.php");
+require_once("bit.config.php");
 $bet1 = $bet;
 $c = curl_init();
 curl_setopt($c, CURLOPT_URL, "$api?bet=$bet1&user=$user&token=$token&choose=$pilihan");
