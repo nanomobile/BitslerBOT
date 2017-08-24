@@ -17,12 +17,12 @@ BitslerBOT required **PHP 5+**, and currently tested on **PHP 7.0.17-2** *(CLI)*
 ## Configuration
 >[bit.config.php](https://github.com/Hiroyuki48/BitslerBOT/blob/master/bit.config.php)
 ```php
-   $user = "..."; your Bitsler username
-   $token = "..."; SHA512. Go to www.bitsler.com & login, in console browser (PRESS F12) type: console.log(access_token)
-   #$persen = "...."; example "80.00" for dice mode remove #
-   #$pilihan = "true-true-true-false"; for CaraYCruz remove #
-   #$api = "http://smaalazhaar.sch.id/modul/bd.php"; for dice mode remove #
-   #$api = http://smaalazhaar.sch.id/modul/bs.php"; for CaraYCruz remove #
+   $user = "..."; //your Bitsler username
+   $token = "..."; //SHA512. Go to www.bitsler.com & login, in console browser (PRESS F12) type: console.log(access_token)
+   #$persen = "...."; example "80.00" //for dice mode remove #
+   #$pilihan = "true-true-true-false"; //for CaraYCruz remove #
+   #$api = "http://smaalazhaar.sch.id/modul/bd.php"; //for dice mode remove #
+   #$api = http://smaalazhaar.sch.id/modul/bs.php"; //for CaraYCruz remove #
 ```
 
 ## Usage
