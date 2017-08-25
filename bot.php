@@ -49,6 +49,9 @@ sleep(0);
 }elseif($error == 1){
 echo "\33[1;33m$stat! \e[95m\n";
 exit();
+}elseif($error == 3){
+echo "\33[1;33m$stat! \e[95m\n";
+exit();
 }else {
 echo "\33[1;32m($time) $stat! RESULT $result_coin | CHOOSE $choose | BET: $amount | BALANCE: $newbanlace\e[95m\n";
 }
